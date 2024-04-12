@@ -55,9 +55,9 @@ namespace Cheat::Features
 
 				if (vars.KillAura.value())
 				{
-					CALL_ORIGIN(PIPHNBOBFEF_KBCIIEFLPGB_Hook, __this, app::ESpecialState__Enum::DotDamage, 2i64, 99999999i64, 0i64, buffName, method);
-					CALL_ORIGIN(PIPHNBOBFEF_KBCIIEFLPGB_Hook, __this, app::ESpecialState__Enum::Shield, 2i64, -99999999i64, 0i64, buffName, method);
-					CALL_ORIGIN(PIPHNBOBFEF_KBCIIEFLPGB_Hook, __this, app::ESpecialState__Enum::DotBreak, 2i64, 99999999i64, 0i64, buffName, method);
+					CALL_ORIGIN(PIPHNBOBFEF_KBCIIEFLPGB_Hook, __this, app::ESpecialState__Enum::DotDamage, 2i64, 100000i64, 0i64, buffName, method);
+					CALL_ORIGIN(PIPHNBOBFEF_KBCIIEFLPGB_Hook, __this, app::ESpecialState__Enum::Shield, 2i64, -100000i64, 0i64, buffName, method);
+					CALL_ORIGIN(PIPHNBOBFEF_KBCIIEFLPGB_Hook, __this, app::ESpecialState__Enum::DotBreak, 2i64, 100000i64, 0i64, buffName, method);
 				}
 
 				// CALL_ORIGIN(PIPHNBOBFEF_KBCIIEFLPGB_Hook, __this, app::ESpecialState__Enum::Crash, 2i64, 99999999i64, 0i64, buffName, method);
